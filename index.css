@@ -247,6 +247,9 @@ body{
 .prname:hover span{
 	animation: gh 1.15s linear infinite;
 }
+#internships > .prlist > .pritem{
+	height: fit-content;
+}
 @keyframes gh{
 	0%{margin-left: 0px; opacity: 0; color: #4a5fc1;}
 	30%{margin-left: 6px; opacity: 1; color: #4a5fc1;}
@@ -261,7 +264,6 @@ body{
 	width: 100%;
 }
 .pritem{
-	height: fit-content;
 	margin-top: 35px;
 }
 .pritem img{
