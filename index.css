@@ -261,7 +261,7 @@ body{
 	width: 100%;
 }
 .pritem{
-	height: 330px;
+	height: fit-content;
 	margin-top: 35px;
 }
 .pritem img{
